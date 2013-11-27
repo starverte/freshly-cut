@@ -1,6 +1,12 @@
-Freshly Cut
+Freshly Cut 0.0.0
 =====
-Child theme of Flint
+A child theme of Flint
+
+```
+Freshly Cut is a child theme of Flint http://sparks.starverte.com/flint
+(C) 2013 Star Verte LLC
+Licensed under the GNU General Public License v3.0, http://www.gnu.org/licenses/gpl.html
+```
 
 ```
 Freshly Cut Copyright 2013  Star Verte LLC  (email : info@starverte.com)
