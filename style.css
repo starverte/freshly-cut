@@ -33,7 +33,6 @@ Template: flint
 
 /* =Header
 ----------------------------------------------- */
-
 #masthead {
   background: #fff;
 }
@@ -43,11 +42,13 @@ Template: flint
 ----------------------------------------------- */
 
 
-
 /* =Media
 ----------------------------------------------- */
-
-
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  padding-top: 0;
+  padding-bottom: 0;
+}
 
 /* =Navigation
 ----------------------------------------------- */
@@ -66,5 +67,3 @@ Template: flint
 
 /* =Footer
 ----------------------------------------------- */
-
-
