@@ -4,8 +4,7 @@
  *
  * Displays the navigation menu
  *
- * @package Flint
- * @sub-package Freshly Cut
+ * @package Flint\Freshly Cut
  * @since 0.1
  */
 ?>
