@@ -2,7 +2,7 @@
 Theme Name: Freshly Cut
 Author: Star Verte LLC
 Description: Child Theme of Flint.
-Version: 0.0.0
+Version: 0.1
 License: GPLv3
 License URI: LICENSE.md
 Tags:
@@ -34,12 +34,22 @@ Template: flint
 /* =Header
 ----------------------------------------------- */
 #masthead {
-  background: #fff;
+  /* background: #fff; */
+  color: #222;
+}
+.site-branding a {
+  color: #222!important;
 }
 
 
 /* =Content
 ----------------------------------------------- */
+#primary {
+	margin-top: 1em;
+}
+.home #primary {
+  margin-top: 0;
+}
 
 
 /* =Media

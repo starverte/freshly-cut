@@ -6,8 +6,8 @@
  * whether the front page displays the Blog Posts Index
  * or a static page.
  *
- * @package Flint
- * @since 1.1.0
+ * @package Flint\Freshly Cut
+ * @since 0.1
  *
  */
 
@@ -15,6 +15,10 @@ get_header(); ?>
 
   <div id="primary" class="content-area container">
     <div id="content" class="site-content" role="main">
+    
+    <?php echo do_shortcode('[steel_slideshow name="splash"]'); ?>
+        
+    <p></p>
   
       <?php while ( have_posts() ) : the_post(); ?>
   
