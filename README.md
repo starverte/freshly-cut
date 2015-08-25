@@ -1,4 +1,4 @@
-Freshly Cut 0.0.0
+Freshly Cut 0.1.1
 =====
 A child theme of Flint
 
