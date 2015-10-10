@@ -5,7 +5,7 @@
  * Displays the navigation menu
  *
  * @package Flint\Freshly Cut
- * @since 0.1.1
+ * @since 0.1.2
  */
 ?>
 
