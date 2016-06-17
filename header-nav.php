@@ -10,7 +10,7 @@
 
 ?>
 
-  <nav class="fill navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <nav class="fill navbar navbar-cerulean" role="navigation">
     <h1 class="screen-reader-text"><?php esc_html_e( 'Menu', 'flint' ); ?></h1>
     <div class="screen-reader-text skip-link"><a href="#content" title="<?php esc_attr_e( 'Skip to content', 'flint' ); ?>"><?php esc_html_e( 'Skip to content', 'flint' ); ?></a></div>
     <div class="container">
@@ -22,7 +22,6 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="<?php echo esc_url( home_url() ); ?>"><?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?></a>
       </div><!-- .navbar-header -->
 
       <!-- Collect the nav links, forms, and other content for toggling -->

@@ -9,7 +9,7 @@
  */
 
 get_header( 'head' );
-get_header( 'nav' );
 get_header( 'branding' );
+get_header( 'nav' );
 ?>
 
