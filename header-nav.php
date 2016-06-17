@@ -4,35 +4,31 @@
  *
  * Displays the navigation menu
  *
- * @package Flint\Freshly Cut
- * @since 0.1.2
+ * @package Freshly Cut
+ * @since 0.2.0
  */
+
 ?>
 
   <nav class="fill navbar navbar-inverse navbar-fixed-top" role="navigation">
-    <h1 class="screen-reader-text"><?php _e( 'Menu', 'flint' ); ?></h1>
-    <div class="screen-reader-text skip-link"><a href="#content" title="<?php esc_attr_e( 'Skip to content', 'flint' ); ?>"><?php _e( 'Skip to content', 'flint' ); ?></a></div>
+    <h1 class="screen-reader-text"><?php esc_html_e( 'Menu', 'flint' ); ?></h1>
+    <div class="screen-reader-text skip-link"><a href="#content" title="<?php esc_attr_e( 'Skip to content', 'flint' ); ?>"><?php esc_html_e( 'Skip to content', 'flint' ); ?></a></div>
     <div class="container">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-freshly-cut-collapse">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-primary">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand visible-xs-block" href="<?php echo esc_url( home_url() ); ?>"><?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?></a>
+        <a class="navbar-brand" href="<?php echo esc_url( home_url() ); ?>"><?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?></a>
       </div><!-- .navbar-header -->
 
       <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse navbar-freshly-cut-collapse">
-        <?php
-        if ( class_exists( 'Flint_Walker_Nav_Menu_Navbar' ) ) {
-          wp_nav_menu( array( 'theme_location' => 'primary', 'container' => false, 'menu_class' => 'nav navbar-nav', 'fallback_cb' => false, 'walker' => new Flint_Walker_Nav_Menu_Navbar ) );
-        } else {
-          wp_nav_menu( array( 'theme_location' => 'primary', 'container' => false, 'menu_class' => 'nav navbar-nav', 'fallback_cb' => false, 'walker' => new Flint_Bootstrap_Menu ) );
-        }
-        ?>
+      <div class="collapse navbar-collapse navbar-primary">
+        <?php wp_nav_menu( array( 'theme_location' => 'primary', 'container' => false, 'menu_class' => 'nav navbar-nav', 'fallback_cb' => 'flint_nav_fallback', 'walker' => new Flint_Walker_Nav_Menu_Navbar ) ); ?>
       </div><!-- .navbar-collapse -->
     </div><!-- .container -->
   </nav><!-- .navbar -->
+
