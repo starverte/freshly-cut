@@ -7,7 +7,7 @@ License: GPLv3
 License URI: LICENSE.md
 Tags:
 Template: flint
-Template Version: 1.5.0
+Template Version: 1.6.0
 
     Copyright 2013  Star Verte LLC  (email : info@starverte.com)
     
@@ -29,40 +29,144 @@ Template Version: 1.5.0
 
 /* =Global
 ----------------------------------------------- */
-
+body {
+  padding-top: 0;
+}
 
 
 /* =Header
 ----------------------------------------------- */
 #masthead {
-  /* background: #fff; */
-  color: #222;
+  background: #5d9fc1;
 }
 .site-branding a {
-  color: #222!important;
+  color: #ffffff!important;
+}
+.site-branding a:hover {
 }
 
 
 /* =Content
 ----------------------------------------------- */
 #primary {
-	margin-top: 1em;
 }
 .home #primary {
-  margin-top: 0;
 }
 
 
 /* =Media
 ----------------------------------------------- */
-.carousel-inner > .item > img,
-.carousel-inner > .item > a > img {
-  padding-top: 0;
-  padding-bottom: 0;
-}
+
 
 /* =Navigation
 ----------------------------------------------- */
+.navbar-cerulean {
+  background-color: #0076a8;
+  border-color: #005275;
+}
+.navbar-cerulean .navbar-brand {
+  color: rgba(255,255,255,0.6);
+}
+.navbar-cerulean .navbar-brand:hover,
+.navbar-cerulean .navbar-brand:focus {
+  color: #ffffff;
+  background-color: transparent;
+}
+.navbar-cerulean .navbar-text {
+  color: rgba(255,255,255,0.6);
+}
+.navbar-cerulean .navbar-nav > li > a {
+  color: rgba(255,255,255,0.6);
+}
+.navbar-cerulean .navbar-nav > li > a:hover,
+.navbar-cerulean .navbar-nav > li > a:focus {
+  color: #ffffff;
+  background-color: transparent;
+}
+.navbar-cerulean .navbar-nav > .active > a,
+.navbar-cerulean .navbar-nav > .active > a:hover,
+.navbar-cerulean .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #005275;
+}
+.navbar-cerulean .navbar-nav > .disabled > a,
+.navbar-cerulean .navbar-nav > .disabled > a:hover,
+.navbar-cerulean .navbar-nav > .disabled > a:focus {
+  color: #444444;
+  background-color: transparent;
+}
+.navbar-cerulean .navbar-toggle {
+  border-color: #333333;
+}
+.navbar-cerulean .navbar-toggle:hover,
+.navbar-cerulean .navbar-toggle:focus {
+  background-color: #333333;
+}
+.navbar-cerulean .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+.navbar-cerulean .navbar-collapse,
+.navbar-cerulean .navbar-form {
+  border-color: #005d84;
+}
+.navbar-cerulean .navbar-nav > .open > a,
+.navbar-cerulean .navbar-nav > .open > a:hover,
+.navbar-cerulean .navbar-nav > .open > a:focus {
+  background-color: #005275;
+  color: #ffffff;
+}
+@media (max-width: 767px) {
+  .navbar-cerulean .navbar-nav .open .dropdown-menu > .dropdown-header {
+    border-color: #005275;
+  }
+  .navbar-cerulean .navbar-nav .open .dropdown-menu .divider {
+    background-color: #005275;
+  }
+  .navbar-cerulean .navbar-nav .open .dropdown-menu > li > a {
+    color: rgba(255,255,255,0.6);
+  }
+  .navbar-cerulean .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-cerulean .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffffff;
+    background-color: transparent;
+  }
+  .navbar-cerulean .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-cerulean .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-cerulean .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffffff;
+    background-color: #005275;
+  }
+  .navbar-cerulean .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-cerulean .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-cerulean .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #444444;
+    background-color: transparent;
+  }
+}
+.navbar-cerulean .navbar-link {
+  color: rgba(255,255,255,0.6);
+}
+.navbar-cerulean .navbar-link:hover {
+  color: #ffffff;
+}
+.navbar-cerulean .btn-link {
+  color: rgba(255,255,255,0.6);
+}
+.navbar-cerulean .btn-link:hover,
+.navbar-cerulean .btn-link:focus {
+  color: #ffffff;
+}
+.navbar-cerulean .btn-link[disabled]:hover,
+fieldset[disabled] .navbar-cerulean .btn-link:hover,
+.navbar-cerulean .btn-link[disabled]:focus,
+fieldset[disabled] .navbar-cerulean .btn-link:focus {
+  color: #444444;
+}
+.navbar-cerulean {
+  border-radius: 0;
+  border-left: 0;
+  border-right: 0;
+}
 
 
 
