@@ -51,8 +51,8 @@ flint_get_sidebar( 'header' );
     <div class="container">
       <div class="row">
         <blockquote class="col-xs-12">
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-          <footer class="text-right">Johnny Appleseed</footer>
+          <p class="hidden">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+          <footer class="text-right hidden">Johnny Appleseed</footer>
         </blockquote>
       </div><!-- .row -->
     </div><!-- .container -->
