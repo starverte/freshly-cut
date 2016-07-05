@@ -26,7 +26,7 @@
 
       <div class="collapse navbar-collapse navbar-primary">
         <?php wp_nav_menu( array( 'theme_location' => 'primary', 'container' => false, 'menu_class' => 'nav navbar-nav', 'fallback_cb' => 'flint_nav_fallback', 'walker' => new Flint_Walker_Nav_Menu_Navbar ) ); ?>
-        <span class="navbar-text navbar-right" style="color:#fff;font-weight:bold;">970.800.1829</span>
+        <span class="navbar-text visible-xs-block" style="color:#fff;font-weight:bold;">970.800.1829</span>
       </div><!-- .navbar-collapse -->
     </div><!-- .container -->
   </nav><!-- .navbar -->
