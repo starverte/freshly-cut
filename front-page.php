@@ -67,7 +67,7 @@ flint_get_sidebar( 'header' );
       <div class="col-xs-12 col-md-4 services services-left">
         <div class="row">
           <div class="col-xs-3 img-service">
-            <div style="background: #0d3e57; border-radius: 50%; height: 68px; margin-top: 30px;"></div>
+            <img src="https://dev.highcountryls.com/wp-content/uploads/2014/01/140-e1467771654136-150x150.jpg">
           </div><!-- .img-service -->
           <div class="col-xs-9 service-description">
             <h4>Color</h4>
@@ -76,7 +76,7 @@ flint_get_sidebar( 'header' );
         </div><!-- .row -->
         <div class="row">
           <div class="col-xs-3 img-service">
-            <div style="background: #0d3e57; border-radius: 50%; height: 68px; margin-top: 30px;"></div>
+            <img src="https://dev.highcountryls.com/wp-content/uploads/2014/05/DSCN0272-e1467771857578-150x150.jpg">
           </div><!-- .img-service -->
           <div class="col-xs-9 service-description">
             <h4>Irrigation</h4>
@@ -85,7 +85,7 @@ flint_get_sidebar( 'header' );
         </div><!-- .row -->
         <div class="row">
           <div class="col-xs-3 img-service">
-            <div style="background: #0d3e57; border-radius: 50%; height: 68px; margin-top: 30px;"></div>
+            <img src="https://dev.highcountryls.com/wp-content/uploads/2014/01/DSCN03671-e1467772015388-150x150.jpg">
           </div><!-- .img-service -->
           <div class="col-xs-9 service-description">
             <h4>Renovation/Install</h4>
@@ -96,7 +96,7 @@ flint_get_sidebar( 'header' );
       <div class="col-xs-12 col-md-4 services services-right">
         <div class="row">
           <div class="col-xs-3 img-service">
-            <div style="background: #0d3e57; border-radius: 50%; height: 68px; margin-top: 30px;"></div>
+            <img src="https://dev.highcountryls.com/wp-content/uploads/2014/01/DSCN0267-e1467771165584-150x150.jpg" />
           </div><!-- .img-service -->
           <div class="col-xs-9 service-description">
             <h4>Maintenance</h4>
@@ -105,11 +105,11 @@ flint_get_sidebar( 'header' );
         </div><!-- .row -->
         <div class="row">
           <div class="col-xs-3 img-service">
-            <div style="background: #0d3e57; border-radius: 50%; height: 68px; margin-top: 30px;"></div>
+            <img src="https://dev.highcountryls.com/wp-content/uploads/2014/05/067-e1467772121732-150x150.jpg">
           </div><!-- .img-service -->
           <div class="col-xs-9 service-description">
             <h4>Snow Removal</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quam justo, vulputate ut urna vel, gravida sollicitudin libero. Sed malesuada elementum.</p>
+            <p>Whether you need two inches or two feet of snow removed, our fleet is ready day and night, weekends and holidays.</p>
           </div><!-- .service-description -->
         </div><!-- .row -->
       </div><!-- .col-xs-12 .col-md-4 -->
