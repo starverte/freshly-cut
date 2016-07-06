@@ -294,4 +294,12 @@ fieldset[disabled] .navbar-cerulean .btn-link:focus {
 .services-right {
   margin-top: 15px;
 }
+.img-service div,
+.img-service img {
+  background: #0d3e57;
+  border-radius: 50%;
+  margin-top: 30px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
 
