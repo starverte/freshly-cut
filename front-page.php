@@ -119,4 +119,3 @@ flint_get_sidebar( 'header' );
 
 <?php flint_get_sidebar( 'footer' ); ?>
 <?php get_footer(); ?>
-
