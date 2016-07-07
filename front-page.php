@@ -71,7 +71,7 @@ flint_get_sidebar( 'header' );
           </div><!-- .img-service -->
           <div class="col-xs-9 service-description">
             <h4>Color</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quam justo, vulputate ut urna vel, gravida sollicitudin libero. Sed malesuada elementum.</p>
+            <p>A colorful annual program on your property can increase curb appeal and add value. Color can create a sense of peace and well-being, flowers brighten everyone's day.</p>
           </div><!-- .service-description -->
         </div><!-- .row -->
         <div class="row">
@@ -80,7 +80,7 @@ flint_get_sidebar( 'header' );
           </div><!-- .img-service -->
           <div class="col-xs-9 service-description">
             <h4>Irrigation</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quam justo, vulputate ut urna vel, gravida sollicitudin libero. Sed malesuada elementum.</p>
+            <p>Our irrigation department is knowledgeable in all aspects of irrigation. We can help our customers find solutions to not only conserve water but to also make your property look its best all while staying within your budget.</p>
           </div><!-- .service-description -->
         </div><!-- .row -->
         <div class="row">
@@ -89,7 +89,7 @@ flint_get_sidebar( 'header' );
           </div><!-- .img-service -->
           <div class="col-xs-9 service-description">
             <h4>Renovation/Install</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quam justo, vulputate ut urna vel, gravida sollicitudin libero. Sed malesuada elementum.</p>
+            <p>High Country Landscape Services has an experienced installation/renovation department to help create a visually appealing landscape for your home or office. Our renovation technicians can create a small project to a complete overhaul. You imagine the perfect landscape, and we will create it.</p>
           </div><!-- .service-description -->
         </div><!-- .row -->
       </div><!-- .col-xs-12 .col-md-4 -->
@@ -100,7 +100,7 @@ flint_get_sidebar( 'header' );
           </div><!-- .img-service -->
           <div class="col-xs-9 service-description">
             <h4>Maintenance</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quam justo, vulputate ut urna vel, gravida sollicitudin libero. Sed malesuada elementum.</p>
+            <p>High Country Landscape Services strives to deliver the highest quality of service and products for our customers. We manage landscape maintenance for several properties in Northern Colorado, ranging from large business to residential and everything in between. A well-maintained property can add so much value.</p>
           </div><!-- .service-description -->
         </div><!-- .row -->
         <div class="row">
@@ -119,4 +119,3 @@ flint_get_sidebar( 'header' );
 
 <?php flint_get_sidebar( 'footer' ); ?>
 <?php get_footer(); ?>
-
