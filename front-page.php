@@ -62,12 +62,23 @@ flint_get_sidebar( 'header' );
     <div class="row">
       <div class="col-xs-12 col-md-4 contact">
         <h2>Contact</h2>
-        <?php echo do_shortcode( "[contact-form to='mbeall@starverte.com,office@highcountryls.com' subject='Contact Form'][contact-field label='Name' type='name' required='1'/][contact-field label='Email' type='email' required='1'/][contact-field label='Comment' type='textarea' required='1'/][/contact-form]" ); ?>
+        <?php
+          query_posts( array( 'page_id' => 268 ) );
+
+          if ( have_posts() ) {
+            while ( have_posts() ) {
+              the_post();
+              the_content();
+            }
+          }
+
+          wp_reset_query();
+        ?>
       </div><!-- .contact -->
       <div class="col-xs-12 col-md-4 services services-left">
         <div class="row">
           <div class="col-xs-3 img-service">
-            <img src="https://dev.highcountryls.com/wp-content/uploads/2014/01/140-e1467771654136-150x150.jpg">
+            <img src="https://highcountryls.com/wp-content/uploads/2016/08/hcls-home-color.jpg">
           </div><!-- .img-service -->
           <div class="col-xs-9 service-description">
             <h4>Color</h4>
@@ -76,7 +87,7 @@ flint_get_sidebar( 'header' );
         </div><!-- .row -->
         <div class="row">
           <div class="col-xs-3 img-service">
-            <img src="https://dev.highcountryls.com/wp-content/uploads/2014/05/DSCN0272-e1467771857578-150x150.jpg">
+            <img src="https://highcountryls.com/wp-content/uploads/2016/08/hcls-home-irrigation.jpg">
           </div><!-- .img-service -->
           <div class="col-xs-9 service-description">
             <h4>Irrigation</h4>
@@ -85,7 +96,7 @@ flint_get_sidebar( 'header' );
         </div><!-- .row -->
         <div class="row">
           <div class="col-xs-3 img-service">
-            <img src="https://dev.highcountryls.com/wp-content/uploads/2014/01/DSCN03671-e1467772015388-150x150.jpg">
+            <img src="https://highcountryls.com/wp-content/uploads/2016/08/hcls-home-renovation.jpg">
           </div><!-- .img-service -->
           <div class="col-xs-9 service-description">
             <h4>Renovation/Install</h4>
@@ -96,7 +107,7 @@ flint_get_sidebar( 'header' );
       <div class="col-xs-12 col-md-4 services services-right">
         <div class="row">
           <div class="col-xs-3 img-service">
-            <img src="https://dev.highcountryls.com/wp-content/uploads/2014/01/DSCN0267-e1467771165584-150x150.jpg" />
+            <img src="https://highcountryls.com/wp-content/uploads/2016/08/hcls-home-maintenance.jpg" />
           </div><!-- .img-service -->
           <div class="col-xs-9 service-description">
             <h4>Maintenance</h4>
@@ -105,7 +116,7 @@ flint_get_sidebar( 'header' );
         </div><!-- .row -->
         <div class="row">
           <div class="col-xs-3 img-service">
-            <img src="https://dev.highcountryls.com/wp-content/uploads/2014/05/067-e1467772121732-150x150.jpg">
+            <img src="https://highcountryls.com/wp-content/uploads/2016/08/hcls-home-snow.jpg">
           </div><!-- .img-service -->
           <div class="col-xs-9 service-description">
             <h4>Snow Removal</h4>
